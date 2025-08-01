@@ -175,11 +175,7 @@ export default function AuthPage() {
                         </Button>
                       </div>
 
-                      <div className="text-center text-xs text-muted-foreground bg-muted/50 p-3 rounded-lg">
-                        <p className="font-medium mb-1">Demo Credentials:</p>
-                        <p>Admin: admin@luffi.com / admin123</p>
-                        <p>Customer: any email / any password</p>
-                      </div>
+                     
                     </TabsContent>
 
                     {/* Register Tab */}
