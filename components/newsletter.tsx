@@ -128,7 +128,7 @@ export function Newsletter() {
                     <div 
                       className="absolute inset-0 bg-cover bg-center"
                       style={{
-                        backgroundImage: `url('https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=600')`
+                        backgroundImage: `url('/images/Artboard 1.jpg')`
                       }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />

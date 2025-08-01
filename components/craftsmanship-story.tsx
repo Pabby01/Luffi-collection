@@ -142,7 +142,7 @@ export function CraftsmanshipStory() {
               {/* Large Image */}
               <div className="col-span-2 relative h-64 rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/images/Artboard 1-1.jpg"
                   alt="African artisan working"
                   fill
                   className="object-cover"
@@ -157,7 +157,7 @@ export function CraftsmanshipStory() {
               {/* Small Images */}
               <div className="relative h-32 rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/Artboard 1.jpg"
                   alt="Traditional textile patterns"
                   fill
                   className="object-cover"
@@ -165,7 +165,7 @@ export function CraftsmanshipStory() {
               </div>
               <div className="relative h-32 rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.pexels.com/photos/8849298/pexels-photo-8849298.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/Artboard 2.jpg"
                   alt="Handwoven fabric"
                   fill
                   className="object-cover"

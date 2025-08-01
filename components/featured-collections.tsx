@@ -12,7 +12,7 @@ const collections = [
     id: 1,
     title: 'Kente Elegance',
     description: 'Traditional Kente patterns reimagined for contemporary fashion',
-    image: 'https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Labi.jpg',
     itemCount: 24,
     featured: true
   },
@@ -20,7 +20,7 @@ const collections = [
     id: 2,
     title: 'Ankara Fusion',
     description: 'Bold Ankara prints meet modern silhouettes',
-    image: 'https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Ayo.jpg',
     itemCount: 32,
     featured: false
   },
@@ -28,7 +28,7 @@ const collections = [
     id: 3,
     title: 'Mudcloth Modern',
     description: 'Authentic Malian mudcloth in contemporary designs',
-    image: 'https://images.pexels.com/photos/8849298/pexels-photo-8849298.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Rike.jpg',
     itemCount: 18,
     featured: false
   },
@@ -36,7 +36,7 @@ const collections = [
     id: 4,
     title: 'Adinkra Stories',
     description: 'Symbolic Adinkra patterns telling ancient stories',
-    image: 'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Uche.jpg',
     itemCount: 28,
     featured: false
   }

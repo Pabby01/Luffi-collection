@@ -39,7 +39,7 @@ const products = [
     material: 'Kente Silk',
     size: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Red', 'Blue', 'Gold'],
-    image: 'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: '/images/Ayo.jpg',
     images: [
       'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=500',
       'https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=500'
@@ -58,7 +58,7 @@ const products = [
     material: 'Ankara Cotton',
     size: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Orange', 'Purple', 'Green'],
-    image: 'https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: '/images/Kemi.jpg',
     images: [
       'https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=500',
       'https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=500'
@@ -78,7 +78,7 @@ const products = [
     material: 'Mudcloth',
     size: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Brown', 'Black', 'Cream'],
-    image: 'https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: '/images/Labi.jpg',
     images: [
       'https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=500'
     ],
@@ -96,7 +96,7 @@ const products = [
     material: 'Brass',
     size: ['One Size'],
     colors: ['Gold', 'Silver'],
-    image: 'https://images.pexels.com/photos/8849298/pexels-photo-8849298.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: '/images/Rike.jpg',
     images: [
       'https://images.pexels.com/photos/8849298/pexels-photo-8849298.jpeg?auto=compress&cs=tinysrgb&w=500'
     ],
@@ -243,7 +243,7 @@ export default function ShopPage() {
             <Checkbox
               id="on-sale"
               checked={showOnSale}
-              onCheckedChange={setShowOnSale}
+              onCheckedChange={(checked) => setShowOnSale(checked === true)}
             />
             <label htmlFor="on-sale" className="text-sm">On Sale</label>
           </div>
@@ -251,7 +251,7 @@ export default function ShopPage() {
             <Checkbox
               id="new-arrivals"
               checked={showNew}
-              onCheckedChange={setShowNew}
+              onCheckedChange={(checked) => setShowNew(checked === true)}
             />
             <label htmlFor="new-arrivals" className="text-sm">New Arrivals</label>
           </div>
